@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-DECLINATION_ID=$(node -p "require('./package.json').declinationId")
-
 npx @rollup-umd/documentation-cli variable \
   PACKAGE_NAME=$(node -p "require('./package.json').name") \
   PACKAGE_DESCRIPTION="$(node -p "require('./package.json').description")" \
@@ -14,8 +12,3 @@ npx @rollup-umd/documentation-cli variable \
   CI_PROJECT_NAMESPACE=${CI_PROJECT_NAMESPACE} \
   CI_PROJECT_NAME=${CI_PROJECT_NAME} \
   IMG_SHIELD_PUBLISHING=$(npx rollup-umd-scripts publish status --badge)
-
-if [[ "$DECLINATION_ID" = cli  ]]; then
-  echo "[Documentation] generating CLI documentation"
-  npx @yeutech-lab/rollup-umd-documentation-cli
-fi
