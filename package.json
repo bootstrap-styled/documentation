@@ -1,6 +1,6 @@
 {
   "name": "@bootstrap-styled/documentation",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Bootstrap Styled Layouts and @rollup-umd/documentation configuration extension",
   "main": "lib/index.js",
   "homepage": "https://bootstrap-styled.yeutech.com/documentation",
@@ -31,7 +31,8 @@
     "jsdoc": "jsdoc-documentation --file",
     "prestyleguide": "npm run jsdoc",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "postinstall": "node -e \"console.log('\\u001b[31m@bootstrap-styled/documentation is deprecated, use @bootstrap-styled/documentation instead.')\" || exit 0"
   },
   "repository": {
     "type": "git",
