@@ -1,2 +1,2 @@
-const { config } = require('@rollup-umd/documentation/lib/styleguide.config');
-module.exports = config;
+const { createConfig } = require('@rollup-umd/documentation');
+module.exports = createConfig();

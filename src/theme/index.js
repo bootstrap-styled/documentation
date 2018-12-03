@@ -1,9 +1,9 @@
-import createMakeTheme, { toMakeTheme } from 'bootstrap-styled/lib/utils';
-import { makeTheme as makeThemeBs } from '@bootstrap-styled/v4/lib/theme/makeTheme';
-import { makeTheme as makeThemeNavigationStyleguide } from '@bootstrap-styled/navigation-bar/lib/NavigationStyleguide/theme';
-import { makeTheme as makeThemeStyleguideBs } from './styleguidist-bs';
+import { toMakeTheme } from 'bootstrap-styled/lib/utils';
+import { makeTheme as makeThemeDocumentation } from '@rollup-umd/documentation/lib/theme';
 
-const themeBsYeutech = makeThemeBs({
+/** @public bootstrap-styled documentation makeTheme */
+export const makeTheme = toMakeTheme(makeThemeDocumentation({
+  _name: 'bootstrap-styled-documentation',
   '$btn-primary-color': '#B31255',
   '$btn-primary-bg': '#1C00ff00',
   '$btn-primary-border': '#1C00ff00',
@@ -25,23 +25,15 @@ const themeBsYeutech = makeThemeBs({
   '$code-color': '#333',
   '$table-cell-padding': '0',
   '$table-border-width': '0',
-});
-
-const themeNavigationYeutech = makeThemeNavigationStyleguide({
-  '$nav-styleguide-bg-color': 'white',
-  '$nav-styleguide-border': '1px solid #CCC',
-  '$nav-styleguide-width': {
-    sm: '100%',
-    md: '260px',
+  styleguide: {
+    '$nav-styleguide-bg-color': 'white',
+    '$nav-styleguide-border': '1px solid #CCC',
+    '$nav-styleguide-width': {
+      sm: '100%',
+      md: '260px',
+    },
   },
-});
+}));
 
-const themeList = [
-  toMakeTheme(themeBsYeutech),
-  toMakeTheme(themeNavigationYeutech),
-  makeThemeStyleguideBs,
-];
-
-export const makeTheme = createMakeTheme(themeList);
-
+/** @public bootstrap-styled documentation theme */
 export default makeTheme();

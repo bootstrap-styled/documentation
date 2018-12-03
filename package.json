@@ -27,7 +27,8 @@
     "lint": "eslint src",
     "prepublish": "npm run build",
     "lint-staged": "lint-staged",
-    "jsdoc": "jsdoc-documentation -- --file",
+    "jsdoc-documentation": "jsdoc-documentation",
+    "jsdoc": "jsdoc-documentation --file",
     "prestyleguide": "npm run jsdoc",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build"
@@ -217,7 +218,10 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "@rollup-umd/documentation": "^1.0.5"
+    "@rollup-umd/documentation": "^1.0.13",
+    "bootstrap-styled": "^2.1.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3"
   },
   "peerDependencies": {},
   "publishConfig": {
@@ -291,10 +295,10 @@
     ],
     "coverageThreshold": {
       "global": {
-        "statements": 100,
-        "branches": 100,
-        "functions": 100,
-        "lines": 100
+        "statements": 0,
+        "branches": 0,
+        "functions": 0,
+        "lines": 0
       }
     },
     "moduleDirectories": [
@@ -310,5 +314,22 @@
   },
   "declinationId": "bs",
   "contributors": [],
-  "private": false
+  "private": false,
+  "transitive": {
+    "name": "documentation",
+    "scope": "bootstrap-styled",
+    "scopedName": "@bootstrap-styled/documentation",
+    "homepage": "https://bootstrap-styled.github.io/documentation",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bootstrap-styled/documentation.git"
+    },
+    "bugs": {
+      "url": "https://github.com/bootstrap-styled/documentation/issues"
+    },
+    "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org"
+    }
+  }
 }
