@@ -314,22 +314,5 @@
   },
   "declinationId": "bs",
   "contributors": [],
-  "private": false,
-  "transitive": {
-    "name": "documentation",
-    "scope": "bootstrap-styled",
-    "scopedName": "@bootstrap-styled/documentation",
-    "homepage": "https://bootstrap-styled.github.io/documentation",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/bootstrap-styled/documentation.git"
-    },
-    "bugs": {
-      "url": "https://github.com/bootstrap-styled/documentation/issues"
-    },
-    "publishConfig": {
-      "access": "public",
-      "registry": "https://registry.npmjs.org"
-    }
-  }
+  "private": false
 }
