@@ -1,2 +1,6 @@
 const { createConfig } = require('@rollup-umd/documentation');
-module.exports = createConfig();
+const config = createConfig();
+
+console.log(config);
+
+module.exports = config;
