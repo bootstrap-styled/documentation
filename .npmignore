@@ -29,4 +29,4 @@ rollup.config.js
 /reports
 /*.tgz
 .md
-
+/internals
