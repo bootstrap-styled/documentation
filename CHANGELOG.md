@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/bootstrap-styled/documentation/compare/v1.0.3...v1.0.4) (2018-12-09)
+
+
+### Bug Fixes
+
+* **ico:** favicon documentation ([0e0797f](https://github.com/bootstrap-styled/documentation/commit/0e0797f))
+* **ui:** added logo and favicon ([5a203fc](https://github.com/bootstrap-styled/documentation/commit/5a203fc))
+* **ui:** added logo and favicon ([260e620](https://github.com/bootstrap-styled/documentation/commit/260e620))
+
 ## [1.0.3](https://github.com/bootstrap-styled/documentation/compare/v1.0.2...v1.0.3) (2018-12-09)
 
 
