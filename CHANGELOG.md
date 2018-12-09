@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/bootstrap-styled/documentation/compare/v1.0.5...v1.0.6) (2018-12-09)
+
+
+### Bug Fixes
+
+* **layout:** using react component and default props for layout to facilitate overriding ([134896f](https://github.com/bootstrap-styled/documentation/commit/134896f))
+
 ## [1.0.5](https://github.com/bootstrap-styled/documentation/compare/v1.0.4...v1.0.5) (2018-12-09)
 
 
