@@ -34,7 +34,7 @@ export default class LayoutRendererBootstrap extends Component {
 
   static defaultProps = defaultProps;
 
-  render() {0
+  render() {
     const { logoMenu, ...rest } = this.props;
     // allow merge
     const logoMenuFinal = {
