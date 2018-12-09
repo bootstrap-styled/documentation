@@ -1,4 +1,4 @@
-import yeutech from './yeutech';
-export default {
-  yeutech,
+const bs = require('./bs');
+module.exports = {
+  bs,
 };

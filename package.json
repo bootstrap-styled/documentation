@@ -211,7 +211,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "@rollup-umd/documentation": "^1.0.17",
+    "@rollup-umd/documentation": "^1.0.21",
     "bootstrap-styled": "^2.1.2",
     "prop-types": "^15.6.2",
     "react": "^16.6.3"
