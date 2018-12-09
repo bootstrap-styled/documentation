@@ -5,6 +5,17 @@ import { homepage } from '../../package.json';
 import theme from '../theme';
 import logo from '../static/bs-logo.png';
 
+const defaultProps = {
+  theme,
+  logoMenu: {
+    logo,
+    href: homepage,
+    alt: 'Bootstrap Styled Logo',
+    width: '50%',
+    className: 'pb-2',
+  },
+};
+
 // eslint-disable-next-line react/prefer-stateless-function
 export default class LayoutRendererBootstrap extends Component {
   static propTypes = {
@@ -21,22 +32,18 @@ export default class LayoutRendererBootstrap extends Component {
     }),
   };
 
-  static defaultProps = {
-    theme,
-    logoMenu: {
-      logo,
-      href: homepage,
-      alt: 'Bootstrap Styled Logo',
-      width: '50%',
-      className: 'pb-2',
-    },
-  };
+  static defaultProps = defaultProps;
 
-  render() {
+  render() {0
     const { logoMenu, ...rest } = this.props;
+    // allow merge
+    const logoMenuFinal = {
+      ...defaultProps.logoMenu,
+      ...logoMenu,
+    };
     return (
       <LayoutRendererOriginal
-        logoMenu={logoMenu}
+        logoMenu={logoMenuFinal}
         {...rest}
       />
     );
