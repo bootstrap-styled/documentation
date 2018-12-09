@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/bootstrap-styled/documentation/compare/v1.0.2...v1.0.3) (2018-12-09)
+
+
+### Bug Fixes
+
+* **theme:** updated theme. ([679b4d5](https://github.com/bootstrap-styled/documentation/commit/679b4d5))
+
 ## [1.0.2](https://github.com/bootstrap-styled/documentation/compare/v1.0.1...v1.0.2) (2018-12-04)
 
 
