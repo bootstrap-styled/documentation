@@ -1,4 +1,4 @@
-import yeutech from './yeutech';
-export default {
-  yeutech,
+im
+module.exports = {
+  bs,
 };
