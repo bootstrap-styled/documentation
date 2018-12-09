@@ -9,7 +9,7 @@ const defaultProps = {
   theme,
   logoMenu: {
     logo,
-    href: homepage,
+    href: null,
     alt: 'Bootstrap Styled Logo',
     width: '50%',
     className: 'pb-2',
