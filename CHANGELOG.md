@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/bootstrap-styled/documentation/compare/v1.0.4...v1.0.5) (2018-12-09)
+
+
+### Bug Fixes
+
+* **dependencies:** [@rollup-umd](https://github.com/rollup-umd)/documentation 1.0.22 ([5fcd25f](https://github.com/bootstrap-styled/documentation/commit/5fcd25f))
+
 ## [1.0.4](https://github.com/bootstrap-styled/documentation/compare/v1.0.3...v1.0.4) (2018-12-09)
 
 
