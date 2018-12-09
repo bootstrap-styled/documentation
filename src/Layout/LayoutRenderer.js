@@ -7,12 +7,12 @@ import theme from '../theme';
 export default (props) => (
   <LayoutRendererOriginal
     theme={theme}
-    className="pb-1"
     logoMenu={{
       logo,
       href: homepage,
       alt: 'Bootstrap Styled Logo',
       width: '50%',
+      className: 'pb-2'
     }}
     {...props}
   />
