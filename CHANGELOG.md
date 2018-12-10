@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/bootstrap-styled/documentation/compare/v1.0.7...v1.0.8) (2018-12-10)
+
+
+### Bug Fixes
+
+* **layout:** do not use documentation as default href for logo in sidebar ([3085f4c](https://github.com/bootstrap-styled/documentation/commit/3085f4c))
+
 ## [1.0.7](https://github.com/bootstrap-styled/documentation/compare/v1.0.6...v1.0.7) (2018-12-09)
 
 
