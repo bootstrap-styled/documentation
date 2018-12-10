@@ -207,12 +207,12 @@
     "semantic-release": "^15.12.1",
     "sinon": "^2.3.2",
     "toctoc": "^0.3.2",
-    "webpack": "^4.20.2"
+    "webpack": "^4.27.1"
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "@rollup-umd/documentation": "^1.0.22",
-    "bootstrap-styled": "^2.1.2",
+    "@rollup-umd/documentation": "^1.1.0",
+    "bootstrap-styled": "^2.2.5",
     "prop-types": "^15.6.2",
     "react": "^16.6.3"
   },
