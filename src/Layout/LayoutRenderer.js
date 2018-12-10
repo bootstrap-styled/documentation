@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import LayoutRendererOriginal from '@rollup-umd/documentation/lib/Layout';
-import { homepage } from '../../package.json';
 import theme from '../theme';
 import logo from '../static/bs-logo.png';
 
