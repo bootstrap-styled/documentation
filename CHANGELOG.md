@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/bootstrap-styled/documentation/compare/v1.1.0...v1.1.1) (2018-12-10)
+
+
+### Bug Fixes
+
+* **ribbon:** fix ribbon on documentation ([ad1d606](https://github.com/bootstrap-styled/documentation/commit/ad1d606))
+
 # [1.1.0](https://github.com/bootstrap-styled/documentation/compare/v1.0.9...v1.1.0) (2018-12-10)
 
 
