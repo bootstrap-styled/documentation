@@ -8,7 +8,7 @@
 [![npm Version](https://img.shields.io/node/v/@bootstrap-styled/documentation.svg?style=flat)](https://www.npmjs.com/package/@bootstrap-styled/documentation) 
 [![Module formats](https://img.shields.io/badge/module%20formats-umd%2C%20cjs%2C%20esm-green.svg?style=flat)](https://www.npmjs.com/package/@bootstrap-styled/documentation)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=com.github.bootstrap-styled.documentation&metric=coverage)](https://sonarcloud.io/dashboard?id=com.github.bootstrap-styled.documentation) [![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=com.github.bootstrap-styled.documentation&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.github.bootstrap-styled.documentation) 
-[![gitter](https://badges.gitter.im/bootstrap-styled/bootstrap-styled.svg)](https://gitter.im/bootstrap-styled)
+[![gitter](https://badges.gitter.im/bootstrap-styled/bootstrap-styled.svg)](https://gitter.im/bootstrap-styled) [![Greenkeeper badge](https://badges.greenkeeper.io/bootstrap-styled/documentation.svg)](https://greenkeeper.io/)
 
 Bootstrap Styled Layouts and @rollup-umd/documentation configuration extension
 
