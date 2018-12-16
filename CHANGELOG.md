@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/bootstrap-styled/documentation/compare/v1.1.1...v1.2.0) (2018-12-16)
+
+
+### Features
+
+* **greenkeeper:** added greenkeeper ([9faed88](https://github.com/bootstrap-styled/documentation/commit/9faed88))
+
 ## [1.1.1](https://github.com/bootstrap-styled/documentation/compare/v1.1.0...v1.1.1) (2018-12-10)
 
 
