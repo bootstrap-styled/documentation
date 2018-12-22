@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/bootstrap-styled/documentation/compare/v1.2.0...v1.2.1) (2018-12-22)
+
+
+### Bug Fixes
+
+* **dependencies:** Upgrade all dependencies ([bcbd70c](https://github.com/bootstrap-styled/documentation/commit/bcbd70c))
+
 # [1.2.0](https://github.com/bootstrap-styled/documentation/compare/v1.1.1...v1.2.0) (2018-12-16)
 
 
