@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/bootstrap-styled/documentation/compare/v1.2.3...v1.2.4) (2019-02-03)
+
+
+### Bug Fixes
+
+* **dependencies:** Upgrade [@rollup-umd](https://github.com/rollup-umd)/documentation to v1.3.12 ([0ae1482](https://github.com/bootstrap-styled/documentation/commit/0ae1482))
+
 ## [1.2.3](https://github.com/bootstrap-styled/documentation/compare/v1.2.2...v1.2.3) (2019-02-02)
 
 
