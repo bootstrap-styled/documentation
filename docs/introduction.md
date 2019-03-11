@@ -5,4 +5,4 @@
 [![Module formats](https://img.shields.io/badge/module%20formats-umd%2C%20cjs%2C%20esm-green.svg?style=flat)](https://www.npmjs.com/package/@bootstrap-styled/documentation)
 [![gitter](https://badges.gitter.im/bootstrap-styled/bootstrap-styled.svg)](https://gitter.im/bootstrap-styled)
 
-Bootstrap Styled Layouts and @rollup-umd/documentation configuration extension
+$PACKAGE_DESCRIPTION
