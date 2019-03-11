@@ -1,6 +1,6 @@
 {
   "name": "@bootstrap-styled/documentation",
-  "version": "1.1.1",
+  "version": "1.2.4",
   "description": "Bootstrap Styled Layouts and @rollup-umd/documentation configuration extension",
   "main": "lib/index.js",
   "homepage": "https://bootstrap-styled.github.io/documentation",

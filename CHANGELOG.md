@@ -1,3 +1,38 @@
+## [1.2.4](https://github.com/bootstrap-styled/documentation/compare/v1.2.3...v1.2.4) (2019-02-03)
+
+
+### Bug Fixes
+
+* **dependencies:** Upgrade [@rollup-umd](https://github.com/rollup-umd)/documentation to v1.3.12 ([0ae1482](https://github.com/bootstrap-styled/documentation/commit/0ae1482))
+
+## [1.2.3](https://github.com/bootstrap-styled/documentation/compare/v1.2.2...v1.2.3) (2019-02-02)
+
+
+### Bug Fixes
+
+* **dependencies:** Upgrade all dependencies ([2ef92cc](https://github.com/bootstrap-styled/documentation/commit/2ef92cc))
+
+## [1.2.2](https://github.com/bootstrap-styled/documentation/compare/v1.2.1...v1.2.2) (2019-01-31)
+
+
+### Bug Fixes
+
+* **dependencies:** Upgrade all dependencies to latest ([cef19a9](https://github.com/bootstrap-styled/documentation/commit/cef19a9))
+
+## [1.2.1](https://github.com/bootstrap-styled/documentation/compare/v1.2.0...v1.2.1) (2018-12-22)
+
+
+### Bug Fixes
+
+* **dependencies:** Upgrade all dependencies ([bcbd70c](https://github.com/bootstrap-styled/documentation/commit/bcbd70c))
+
+# [1.2.0](https://github.com/bootstrap-styled/documentation/compare/v1.1.1...v1.2.0) (2018-12-16)
+
+
+### Features
+
+* **greenkeeper:** added greenkeeper ([9faed88](https://github.com/bootstrap-styled/documentation/commit/9faed88))
+
 ## [1.1.1](https://github.com/bootstrap-styled/documentation/compare/v1.1.0...v1.1.1) (2018-12-10)
 
 
