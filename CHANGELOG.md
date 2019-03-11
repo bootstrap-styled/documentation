@@ -1,3 +1,16 @@
+# [2.0.0](https://github.com/bootstrap-styled/documentation/compare/v1.2.4...v2.0.0) (2019-03-11)
+
+
+### Bug Fixes
+
+* **react-styleguidist:** Upgrade react-styleguidist to v9 which include a breaking change ([3eb4fde](https://github.com/bootstrap-styled/documentation/commit/3eb4fde))
+
+
+### BREAKING CHANGES
+
+* **react-styleguidist:** react-styleguidist v9 introduce per demo scope which can break existing
+documentation
+
 ## [1.2.4](https://github.com/bootstrap-styled/documentation/compare/v1.2.3...v1.2.4) (2019-02-03)
 
 
