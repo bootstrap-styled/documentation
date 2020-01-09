@@ -204,7 +204,7 @@
     "pre-commit": "^1.2.2",
     "raf": "^3.4.1",
     "react-test-renderer": "^16.8.4",
-    "semantic-release": "^15.13.3",
+    "semantic-release": "^16.0.0",
     "toctoc": "^0.3.2",
     "webpack": "^4.29.6"
   },
